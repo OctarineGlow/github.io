@@ -1,0 +1,42 @@
+<style>
+    * { /* global text formatting */
+        font-family: sans-serif;
+    }
+    head {
+        text-align: center;
+    }
+    img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+    }
+    body {
+        background: grey;
+        color: white; 
+        font-weight: 400;
+        max-width: 50em;
+        padding-top: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: auto;
+    }
+    a {
+        /* general links formatting */
+    }
+    a:link { /* unvisited */
+        color: blue;
+    }
+    a:visited {
+        color: purple;
+    }
+    a:hover {
+    	color: lightblue;
+    }
+    a:active {
+        color: white;
+    }
+    ::selection {
+    background: lavender;
+    color: grey;
+    }
+</style>
